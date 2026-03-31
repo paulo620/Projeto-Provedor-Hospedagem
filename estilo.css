@@ -1,0 +1,584 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #1f2937;
+    background: #ffffff;
+}
+
+.pagina {
+    width: 100%;
+}
+
+.conteudo {
+    width: 78%;
+    margin: 0 auto;
+}
+
+.topo {
+    background: #ffffff;
+    padding: 1.40rem 0;
+}
+
+.topo-conteudo {
+    position: relative;
+}
+
+.logo-area {
+    width: 42%;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    padding-left: 4.2rem;
+}
+
+.logo {
+    width: 3rem;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.logo-area h1 {
+    margin: 0;
+    font-size: 1.50rem;
+    line-height: 1.5rem;
+    color: #111827;
+}
+
+.logo-area p {
+    margin: 0.2rem 0 0;
+    font-size: 0.85rem;
+    color: #2f86d6;
+}
+
+.menu-area {
+    width: 57%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.menu-sanduiche {
+    display: none;
+    background: transparent;
+    border: 0;
+    padding: 0.3rem;
+    cursor: pointer;
+}
+
+.menu-sanduiche span {
+    display: block;
+    width: 1.55rem;
+    height: 0.16rem;
+    background: #0f172a;
+    margin: 0.27rem 0;
+}
+
+.menu-link {
+    display: inline;
+    margin-left: 1.25rem;
+    text-decoration: none;
+    color: #0f172a;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.banner-principal {
+    background: #2f86d6;
+    padding: 4.1rem 0 4.2rem;
+}
+
+.banner-conteudo {
+    position: relative;
+}
+
+.banner-texto {
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    color: #ffffff;
+}
+
+.banner-mini {
+    font-size: 0.8rem;
+    margin-bottom: 1.1rem;
+}
+
+.banner-texto h1,
+.banner-texto h2 {
+    font-size: 2.2rem;
+    line-height: 2.40rem;
+    margin: 0 0 1rem;
+}
+
+.banner-descricao {
+    width: 95%;
+    font-size: 0.98rem;
+    line-height: 1.6rem;
+    margin: 0;
+}
+
+.banner-imagem-area {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.banner-imagem {
+    width: 80%;
+}
+
+.faixa-preco-escura {
+    background: #23303f;
+    padding: 1.3rem 0;
+}
+
+.faixa-preco-azul {
+    background: #2f86d6;
+    padding: 1.55rem 0;
+}
+
+.faixa-conteudo {
+    position: relative;
+}
+
+.faixa-texto {
+    width: 70%;
+    display: inline-block;
+    vertical-align: middle;
+    color: #ffffff;
+}
+
+.faixa-texto h3 {
+    margin: 0 0 0.4rem;
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+}
+
+.faixa-texto p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #cfd8e3;
+}
+
+.faixa-botao-area {
+    width: 29%;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.botao-preco {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    background: #2f86d6;
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 0.85rem 1.1rem;
+    border-radius: 5px;
+}
+
+.botao-preco.escuro {
+    background: #23303f;
+}
+
+.secao-beneficios {
+    background: #ffffff;
+    padding: 4.5rem 0 3.9rem;
+    text-align: center;
+}
+
+.beneficios-conteudo h2 {
+    margin: 0.25rem 0;
+    font-size: 1.5rem;
+    color: #0f172a;
+}
+
+.destaque-azul {
+    color: #2f86d6;
+}
+
+.beneficios-linha {
+    margin-top: 3.2rem;
+}
+
+.beneficio-item {
+    width: 32%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 0.8rem;
+}
+
+.beneficio-icone {
+    width: 5.0rem;
+    margin-bottom: 0.7rem;
+}
+
+.beneficio-item h4 {
+    margin: 0.2rem 0 0.9rem;
+    font-size: 1.1rem;
+    color: #111827;
+}
+
+.beneficio-item p {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    color: #475569;
+}
+
+.secao-planos {
+    background: #f2f5fb;
+    padding: 4rem 0 4.6rem;
+    text-align: center;
+}
+
+.planos-conteudo h2 {
+    margin: 0 0 2.1rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: #0f172a;
+}
+
+.tabela-area {
+    width: 90%;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow: 0 0 1.8rem #bfd4ec;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+}
+
+th,
+td {
+    width: 25%;
+    text-align: center;
+    border: 0.07rem solid #e2e8f0;
+}
+
+th {
+    background: #f8fafc;
+    padding: 0.9rem 0.7rem;
+}
+
+th h4 {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #111827;
+}
+
+.plano-icone {
+    width: 4.6rem;
+    margin: 0.55rem 0;
+}
+
+th p {
+    margin: 0;
+    font-size: 0.6rem;
+    color: #64748b;
+}
+
+td {
+    background: #ffffff;
+    padding: 0.85rem 0.5rem;
+    font-size: 0.92rem;
+    color: #334155;
+}
+
+.rodape-principal {
+    background: #ffffff;
+    text-align: center;
+    padding: 2.8rem 0 2rem;
+}
+
+.logo-rodape {
+    width: 10.8rem;
+    margin: 0 auto 1.8rem;
+    display: block;
+}
+
+.rodape-conteudo p {
+    margin: 0.5rem 0;
+    color: #111827;
+    font-size: 0.95rem;
+}
+
+.rodape-final {
+    background: #eef2f7;
+    text-align: center;
+    padding: 1.2rem 0;
+}
+
+.rodape-final p {
+    margin: 0;
+    color: #1f2937;
+    font-size: 0.92rem;
+    font-weight: 700;
+}
+
+.topo-precos {
+    background: #2f86d6;
+    padding: 1.25rem 0;
+}
+
+.logo-area-precos h1 {
+    color: #000000;
+    font-size: 1.80rem;
+}
+
+.logo-area-precos p {
+    color: #d8ecff;
+    font-size: 0.72rem;
+    font-weight: 700;
+}
+
+.menu-link-precos {
+    color: #d8ecff;
+    margin-left: 1.1rem;
+    font-size: 0.69rem;
+}
+
+.conteudo-tabela-precos {
+    background: #f1f3f7;
+    padding: 4.15rem 0 4.5rem;
+}
+
+.tabela-precos-conteudo {
+    width: 75%;
+}
+
+.tabela-precos {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.tabela-precos th,
+.tabela-precos td {
+    border: 0.07rem solid #edf0f5;
+    text-align: center;
+    padding: 0.88rem 0.55rem;
+    font-size: 0.6rem;
+    color: #1f2937;
+    font-weight: 700;
+    width: 20%;
+}
+
+.tabela-precos thead th {
+    background: #f8f9fb;
+    padding: 0.55rem 0.45rem;
+}
+
+.tabela-precos thead p {
+    margin: 0 0 0.2rem;
+    font-size: 0.7rem;
+    color: #9ca3af;
+}
+
+.tabela-precos thead h2 {
+    margin: 0;
+    color: #111827;
+    font-size: 1.70rem;
+    line-height: 1.85rem;
+}
+
+.tabela-precos .topo-vazio {
+    background: #f1f3f7;
+    border: 0;
+}
+
+.tabela-precos .coluna-recurso {
+    text-align: left;
+    background: #f7f8fa;
+    padding-left: 1rem;
+}
+
+.ponto-azul {
+    color: #2f86d6;
+    font-size: 1.8rem;
+    line-height: 0.9rem;
+}
+
+.rodape-precos {
+    background: #2f86d6;
+    text-align: center;
+    padding: 2.1rem 0 2rem;
+}
+
+.logo-area-precos-rodape {
+    width: 18rem;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.logo-area-precos-rodape h1 {
+    font-size: 1.85rem;
+    color: #000000;
+}
+
+.logo-area-precos-rodape p {
+    color: #d8ecff;
+    font-size: 0.72rem;
+    font-weight: 700;
+}
+
+.copyright-precos {
+    margin: 1.15rem 0 0;
+    color: #d8ecff;
+    font-size: 0.74rem;
+    font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+
+    /* MENU SANDUÍCHE */
+    .pagina-home .topo-conteudo {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .pagina-home .logo-area {
+        width: auto;
+        padding-left: 3.6rem;
+    }
+
+    .pagina-home .menu-sanduiche {
+        display: inline-block;
+    }
+
+    .pagina-home .menu-area {
+        width: 100%;
+        display: none;
+        text-align: left;
+        margin-top: 1rem;
+        border-top: 0.07rem solid #e2e8f0;
+        padding-top: 0.5rem;
+    }
+
+    .pagina-home .menu-area.aberto {
+        display: block;
+    }
+
+    .pagina-home .menu-link {
+        display: block;
+        margin: 0;
+        padding: 0.7rem 0;
+    }
+
+    /* CONTEÚDO GERAL DA HOME */
+    .pagina-home .conteudo {
+        width: 92%;
+    }
+
+    /* BANNER */
+    .banner-principal {
+        padding: 2.5rem 0;
+    }
+
+    .banner-texto {
+        width: 100%;
+        display: block;
+    }
+
+    .banner-descricao {
+        width: 100%;
+    }
+
+    .banner-imagem-area {
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .banner-imagem {
+        width: 65%;
+    }
+
+    /* FAIXAS DE PREÇO */
+    .faixa-preco-escura,
+    .faixa-preco-azul {
+        padding: 1.8rem 0;
+    }
+
+    .faixa-texto {
+        width: 100%;
+        display: block;
+        margin-bottom: 1.1rem;
+    }
+
+    .faixa-botao-area {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    /* SEÇÃO BENEFÍCIOS */
+    .beneficios-conteudo h2 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .beneficio-item {
+        width: 100%;
+        display: block;
+        margin-bottom: 2.2rem;
+        padding: 0;
+    }
+
+    .beneficios-linha {
+        margin-top: 2rem;
+    }
+
+    /* SEÇÃO PLANOS */
+    .planos-conteudo h2 {
+        font-size: 1.4rem;
+        line-height: 1.9rem;
+    }
+
+    .pagina-home .tabela-area {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+@media (max-width: 600px) {
+
+    /* BANNER CELULAR */
+    .banner-texto h2 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .banner-imagem {
+        width: 88%;
+    }
+
+    /* FAIXAS CELULAR */
+    .faixa-texto h3 {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+
+    /* RODAPÉ */
+    .logo-rodape {
+        width: 8rem;
+    }
+
+    .rodape-conteudo p {
+        font-size: 0.85rem;
+    }
+}
